@@ -1,0 +1,21 @@
+name: BitcoinAPI #Yêu cầu không chỉnh
+main: bitcoinapi\Bitcoin #Yêu cầu không chỉnh
+author: pmmdst #Yêu cầu không đổi tên Tác Giả (Author)
+translator: KhanggTrann #Yêu cầu không đổi tên người phiên dịch (Translator)
+api: 3.0.0 #Yêu cầu không chỉnh
+version: 0.0.1 #Yêu cầu không chỉnh
+
+commands:
+ mybitcoin:
+  description: Thể hiện số Bitcoin của bạn
+  permission: mybitcoin.pmmdst
+  default: true
+ setbitcoin:
+  description: Chỉnh sửa Bitcoin của bạn/người khác
+  permission: setbitcoin.pmmdst
+  default: op
+ topbitcoin:
+  description: Bảng xếp hạng Bitcoin
+  permission: topbitcoin.pmmdst
+  default: true
+  
